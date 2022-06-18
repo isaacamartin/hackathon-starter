@@ -12,6 +12,6 @@ script:
 deploy:
 - provider: script
 skip_cleanup: true
-script: chmod +x ./delpoy.sh && ./deploy.sh
+script: chmod +x ./deploy.sh && ./deploy.sh
 on:
 branch: master
